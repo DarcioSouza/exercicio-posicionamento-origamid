@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: 0px;
     background: #f7f7f7;
     display: grid;
     gap: 60px;
@@ -41,6 +41,11 @@ p {
     color: #000000;
     border-radius: 4px;
     padding: 15px 30px;
+    border: 2px solid #fff;
+}
+
+.menu a:hover {
+    border: 2px solid #e21;
 }
 
 .conteudo {
@@ -70,19 +75,11 @@ p {
     position: absolute;
     top: 30px;
     right: -30px;
-
-
 }
 
 .introducao h1 {
     font-size: 30px;
     font-weight: bold;
-    
-
-}
-
-.introducao p {
-
 }
 
 .introducao a {
@@ -105,8 +102,7 @@ p {
 
 .vantagens {
     background-color: #ffffff;
-    padding: 40px;
-      
+    padding: 40px;      
 }
 
 .vantagens-item {
